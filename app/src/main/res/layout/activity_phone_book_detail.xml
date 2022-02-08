@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#BDA763"
+    android:layout_height="match_parent"
+    tools:context=".phone_book_detail">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:src="@drawable/free_icon_curve_down_left_arrow_20856"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/free_icon_indian_man_1478407"/>
+
+    <TextView
+        android:id="@+id/person_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abc"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/person_detail_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="010"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>
